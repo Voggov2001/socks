@@ -1,0 +1,10 @@
+spring:
+  liquibase:
+    enabled: true
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/socks
+    username: postgres
+    password: pass
+  jpa:
+    hibernate:
+      ddl-auto: none
